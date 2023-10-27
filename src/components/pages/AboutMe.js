@@ -5,9 +5,9 @@ export function AboutMe() {
         <div id="aboutme">
             <Container 
                 title="Get in Touch" 
-                subtitle="Here's the list of my accounts. You can check out my linkedin account to see more detailed tech information. If you have any questions or comments, you can email me 😉" 
+                subtitle="Here's the list of my accounts. You can check out my linkedin account to see more detailed technical information. If you have any questions or comments, you can email me 😉" 
                 bgColor="bg-slate-50"
-                padding="p-24"
+                padding="p-32"
             >
             <ul role="list" className="space-y-5 my-7 mt-32 grid grid-cols-3 gap-4">
                 <li className="flex space-x-3 items-center justify-center">
