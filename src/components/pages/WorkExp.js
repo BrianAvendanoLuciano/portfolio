@@ -24,7 +24,7 @@ export function WorkExp() {
                         description3="Performs code review to make sure that all the developers on my team are following the company’s code convention."
                     />
                     <TimelineItem
-                        date="June 2019 - july 2021"
+                        date="June 2019 - July 2021"
                         title="L1 Full-stack Web Developer at Cafe24"
                         description="I developed a centralized API for three of the most commonly used visualization APIs (charts) in Cafe24. This API comes with standard settings to provide convenience to other developers. Additionally, I created a variety of custom graphic charts in the company's in-house Grafana dashboard. Moreover, I contributed to the development of several internal applications for the company. These applications were built using Python, Golang, NuxtJS, PostgreSQL, and MongoDB."
                     />

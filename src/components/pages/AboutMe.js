@@ -5,7 +5,7 @@ export function AboutMe() {
         <div id="aboutme">
             <Container 
                 title="Get in Touch" 
-                subtitle="Here's the list of my accounts. You can check out my linkedin account to see more detailed technical information. If you have any questions or comments, you can email me" 
+                subtitle="Here's the list of my accounts. You can check out my linkedin account to see more detailed technical information. If you have any questions or comments, you can email me." 
                 bgColor="bg-slate-50"
                 padding="p-16"
             >
