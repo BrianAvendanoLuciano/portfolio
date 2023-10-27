@@ -14,7 +14,7 @@ export function WorkExp() {
                     />
                     <TimelineItem
                         date="August 2021 - March 15 2023"
-                        title="L2 at Cafe24"
+                        title="L2 Lead at Cafe24"
                         description="Technical Analysis, Development Plan, Code Review, Lead a Team, Writing Code, Rest API"
                     />
                     <TimelineItem
