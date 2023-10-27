@@ -2,6 +2,6 @@ import { Container } from "../ui/Container"
 
 export function AboutMe() {
     return (
-        <Container title="Contact?" />
+        <div id="aboutme"><Container title="Contactssss?" /></div>
     )
 }

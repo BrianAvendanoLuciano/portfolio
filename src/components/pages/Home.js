@@ -2,7 +2,7 @@ import { Container } from "../ui/Container";
 
 export function Home() {
     return (
-        <div>
+        <div id="home">
             <Container 
                 title="This is a meaningful title bro" 
                 subtitle="many many many many many many many many many many many many many many many many many many many many many many many many subtite"
