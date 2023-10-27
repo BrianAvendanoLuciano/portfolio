@@ -1,9 +1,9 @@
 export function ProjectCardTwo(props) {
-    const { title } = props
+    const { title, image, link, description } = props
     return (
         <div class="w-full max-w bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
-        <img class="p-8 rounded-t-lg" src="/docs/images/products/apple-watch.png" alt="product image" />
+        <img class="p-8 rounded-t-lg" src={image} alt="product image" />
     </a>
     <div class="px-5 pb-5">
         <a href="#">
@@ -28,8 +28,8 @@ export function ProjectCardTwo(props) {
             <span class="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">5.0</span>
         </div>
         <div class="flex items-center justify-between">
-            <span class="text-3xl font-bold text-gray-900 dark:text-white">$599</span>
-            <a href="#" class="text-white bg-gray-800 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add to cart</a>
+            <span class="text-xl font-bold text-gray-900 dark:text-white">{description}</span>
+            <a href={link} target="_blank" class="text-white bg-gray-800 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Have a look</a>
         </div>
     </div>
 </div>
