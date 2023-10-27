@@ -5,7 +5,7 @@ import { TimelineItem } from "../ui/timeline/TimelineItem"
 export function WorkExp() {
     return (
         <div id="workexp">
-            <LeftContainer title="Work Experience">
+            <LeftContainer title="Work Experience" bgColor="bg-gray-800" fontColor="text-white">
                 <Timeline>
                     <TimelineItem
                         date="October 2023 - Current"

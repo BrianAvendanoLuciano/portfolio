@@ -2,7 +2,7 @@ export function ProjectCardTwo(props) {
     const { title, image, link, description } = props
     return (
         <div class="w-full max-w bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            <a href="#">
+            <a href={link} target="_blank">
                 <img class="w-full rounded-t-lg" src={image} alt="product image" />
             </a>
             <div class="px-5 pb-5 mt-2">
